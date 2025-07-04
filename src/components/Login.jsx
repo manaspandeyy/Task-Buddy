@@ -9,7 +9,7 @@ function Login() {
     e.preventDefault();
     if (username.trim() === "") return alert("Username is required");
     localStorage.setItem("username", username);
-    navigate("/dashboard");
+    navigate("/");
   };
 
   return (
