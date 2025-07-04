@@ -1,12 +1,58 @@
-# React + Vite
+# ✅ Task Buddy - Personal Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task Buddy is a lightweight and responsive React-based task manager built as part of an internship assignment. It allows users to log in with a simple username and manage their personal tasks without needing any backend or external libraries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Local login with just a username
+- 📝 Add tasks with title and optional description
+- ✅ Mark tasks as completed or pending
+- 🗑 Delete tasks anytime
+- 🗂 Filter tasks by: All, Completed, Pending
+- 💾 Tasks saved in localStorage per user
+- 🎨 Clean and modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React (with Hooks)
+- Vite
+- React Router DOM
+- LocalStorage (custom utility)
+- Plain CSS (no UI frameworks)
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── components/
+│ ├── Dashboard.jsx
+│ ├── Login.jsx
+│ ├── TaskFilter.jsx
+│ ├── TaskForm.jsx
+│ ├── TaskItem.jsx
+│ └── TaskList.jsx
+├── utils/
+│ └── localStorage.js
+├── styles/
+│ └── App.css
+├── App.jsx
+└── main.jsx
+
+yaml
+Copy
+Edit
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+git clone https://github.com/manaspandeyy/Task-Buddy.git
+cd Task-Buddy
+npm install
+npm run dev
